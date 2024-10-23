@@ -1,0 +1,60 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif; /* Font family for the whole page */
+    background-color: #f8f9fa; /* Light gray background */
+    margin: 0; /* Remove default margin */
+	}
+
+/* Container Styles */
+.container {
+    max-width: 1000px; /* Maximum width for the container */
+    margin: auto; /* Center the container */
+    padding: 20px; /* Padding around the container */
+	}
+
+/* Gallery Styles */
+.gallery {
+    margin-top: 20px; /* Top margin for the gallery */
+	position: relative; /* Relative positioning for overlay */
+	}
+
+.gallery a {
+    display: block; /* Block display for anchor */
+	position: relative; /* For absolute positioning of the icon */
+	}
+
+.gallery img {
+    width: 100%; /* 100% width */
+    height: 100%; /* Set height to 100% */
+    aspect-ratio: 1; /* Keep 1:1 aspect ratio */
+    object-fit: cover; /* Crop image to fit */
+    object-position: center; /* Center the image */
+    margin-bottom: 25px; /* Margin at the bottom */
+	}
+
+/* Magnify Icon Styles */
+.gallery a::after {
+    content: '\f002'; /* Font Awesome magnify icon */
+    font-family: 'Font Awesome 5 Free'; /* Font family */
+    font-weight: 900; /* Font weight for solid icons */
+    position: absolute; /* Position it absolutely */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Translate to center */
+    font-size: 40px; /* Icon size */
+    color: rgba(255, 255, 255, 0.8); /* Icon color with transparency */
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s; /* Smooth transition */
+	}
+
+/* Show the icon on hover */
+.gallery a:hover::after {
+    opacity: 1; /* Show icon on hover */
+	}
+
+/* Responsive Design */
+@media (max-width: 767px) {
+.gallery img {
+    height: 500px; /* Fixed height for smaller screens */
+	}
+}
