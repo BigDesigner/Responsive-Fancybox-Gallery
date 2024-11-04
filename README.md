@@ -1,5 +1,5 @@
-# Responsive-Fancbox-Gallery
-A simple and responsive fancbox gallery built with HTML, CSS, and JavaScript using Bootstrap and Fancybox.
+# Responsive-Fancybox-Gallery
+A simple and responsive fancybox gallery built with HTML, CSS, and JavaScript using Bootstrap and Fancybox.
 
 ## DEMO
 [https://responsive-fancybox-gallery.pages.dev/](https://responsive-fancybox-gallery.pages.dev/)
