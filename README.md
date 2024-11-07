@@ -1,3 +1,7 @@
+[![GitHub Release](https://img.shields.io/github/v/release/BigDesigner/Responsive-Fancybox-Gallery?style=flat)](https://github.com/BigDesigner/Responsive-Fancybox-Gallery/releases/tag/v1.0.0)
+[![GitHub Repo stars](https://img.shields.io/github/stars/BigDesigner/Responsive-Fancybox-Gallery?style=flat)](https://github.com/BigDesigner/Responsive-Fancybox-Gallery)
+[![X Follow](https://img.shields.io/twitter/follow/muratgonen?style=flat)](https://x.com/muratgonen)
+
 # Responsive-Fancybox-Gallery
 A simple and responsive fancybox gallery built with HTML, CSS, and JavaScript using Bootstrap and Fancybox.
 
