@@ -7,6 +7,7 @@ A simple and responsive fancybox gallery built with HTML, CSS, and JavaScript us
 
 ## DEMO
 [https://responsive-fancybox-gallery.pages.dev/](https://responsive-fancybox-gallery.pages.dev/)
+
 [https://bigdesigner.github.io/Responsive-Fancybox-Gallery/](https://bigdesigner.github.io/Responsive-Fancybox-Gallery/)
 
 
