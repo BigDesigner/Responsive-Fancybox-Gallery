@@ -6,9 +6,9 @@
 A simple and responsive fancybox gallery built with HTML, CSS, and JavaScript using Bootstrap and Fancybox.
 
 ## DEMO
-[https://responsive-fancybox-gallery.pages.dev/](https://responsive-fancybox-gallery.pages.dev/)
+Demo 1 : [https://responsive-fancybox-gallery.pages.dev/](https://responsive-fancybox-gallery.pages.dev/)
 
-[https://bigdesigner.github.io/Responsive-Fancybox-Gallery/](https://bigdesigner.github.io/Responsive-Fancybox-Gallery/)
+Demo 2 : [https://bigdesigner.github.io/Responsive-Fancybox-Gallery/](https://bigdesigner.github.io/Responsive-Fancybox-Gallery/)
 
 
 ## Features
