@@ -3,7 +3,7 @@
 [![X Follow](https://img.shields.io/twitter/follow/muratgonen?style=flat)](https://x.com/muratgonen)
 
 # Responsive-Fancybox-Gallery
-A simple and responsive fancybox gallery built with HTML, CSS, and JavaScript using Bootstrap and Fancybox.
+A simple, modern, and responsive fancybox gallery built with HTML5 and CSS3, using the latest versions of Bootstrap 5, Fancybox 5, and Font Awesome 6. Now completely jQuery-free!
 
 ## DEMO
 Demo 1 : [https://responsive-fancybox-gallery.pages.dev/](https://responsive-fancybox-gallery.pages.dev/)
@@ -13,17 +13,18 @@ Demo 2 : [https://bigdesigner.github.io/Responsive-Fancybox-Gallery/](https://bi
 
 ## Features
 
-- Responsive design that adapts to various screen sizes.
-- Lightbox functionality to view images in a larger format.
-- Smooth hover effects with a magnifying glass icon using Font Awesome.
-- 1:1 aspect ratio for images ensuring uniformity in display.
+- **Bootstrap 5**: Modern responsive design that adapts to all screen sizes.
+- **Fancybox 5**: High-performance lightbox functionality for a premium viewing experience.
+- **Font Awesome 6**: Crisp icons and smooth hover effects.
+- **No jQuery**: Lightweight and faster loading by removing legacy dependencies.
+- **1:1 Aspect Ratio**: Uniform image display using modern CSS `aspect-ratio`.
 
 ## Getting Started
 
 ### Prerequisites
 
-- A modern web browser (Chrome, Firefox, Safari, etc.)
-- Basic knowledge of HTML, CSS, and JavaScript
+- A modern web browser (Chrome, Firefox, Safari, Edge, etc.)
+- Basic knowledge of HTML and CSS.
 
 ### Installation
 
@@ -39,16 +40,19 @@ To add more images to the gallery:
 
 **Example:**
 
-```
+```html
 <div class="col-md-3">
-    <a href="images/new-image.jpg" data-fancybox="gallery" data-caption="Description for New Image"><img src="images/new-image.jpg" alt="New Image"></a>
+    <a href="images/new-image.jpg" data-fancybox="gallery" data-caption="Description for New Image">
+        <img src="images/new-image.jpg" alt="New Image">
+    </a>
 </div>
 ```
+
 ## License
 This project is licensed under the MIT License. Feel free to use and modify it for your own purposes.
 
 ## Acknowledgments
 
-[Bootstrap](https://getbootstrap.com/) for the responsive framework. 
-[Fancybox]([https://fontawesome.com/](http://fancyapps.com/fancybox/)) for the lightbox functionality.
-[Font Awesome](https://fontawesome.com/) for the iconography.
+- [Bootstrap](https://getbootstrap.com/) for the responsive framework. 
+- [Fancybox](https://fancyapps.com/fancybox/) for the lightbox functionality.
+- [Font Awesome](https://fontawesome.com/) for the iconography.
