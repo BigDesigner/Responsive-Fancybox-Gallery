@@ -35,7 +35,7 @@ body {
 /* Magnify Icon Styles */
 .gallery a::after {
     content: '\f002'; /* Font Awesome magnify icon */
-    font-family: 'Font Awesome 5 Free'; /* Font family */
+    font-family: 'Font Awesome 6 Free'; /* Font family */
     font-weight: 900; /* Font weight for solid icons */
     position: absolute; /* Position it absolutely */
     top: 50%; /* Center vertically */
